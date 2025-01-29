@@ -445,3 +445,133 @@ img {
 .footer-soc-icon {
   fill: #f4f4fd;
 }
+
+.footer-input-list {
+  margin-left: auto;
+}
+
+.footer-Subscribe {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.foter-input-form {
+  display: flex;
+}
+
+.foter-input-lbl {
+}
+
+.foter-input {
+  border: 1px solid #fff;
+  border-radius: 4px;
+  width: 264px;
+  height: 40px;
+  background-color: transparent;
+}
+
+.foter-input::placeholder {
+  color: #fff;
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.foter-input_btn {
+  display: flex;
+  align-items: center;
+  padding-left: 24px;
+  gap: 16px;
+  border-radius: 4px;
+  border: none;
+  width: 165px;
+  height: 40px;
+  background-color: #4d5ae5;
+  color: #fff;
+  margin-left: 24px;
+}
+
+.footer-btn {
+  display: block;
+  position: relative;
+}
+
+.icon-sent {
+  fill: #fff;
+  position: absolute;
+  right: 24px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/*---------------MODAL WINDOW---------*/
+
+.backdrop {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  background-color: rgba(46, 47, 66, 0.4);
+}
+
+.modal {
+  width: 408px;
+  min-height: 584px;
+  background-color: #fcfcfc;
+  border-radius: 4px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 24px;
+}
+.modal-close {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  border-radius: 50%;
+  fill: #e7e9fc;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background: rgb(231, 233, 252);
+}
+.close-btn {
+  fill: #2e2f42;
+  top: 50%;
+  left: 50%;
+}
+.modal-section-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  margin-top: 72px;
+  margin-bottom: 16px;
+}
+.modal-form {
+}
+.modal-label {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16667;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+}
+.modal-input {
+  width: 360px;
+  height: 40px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+}
+.modal-textarea {
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+  width: 360px;
+  height: 120px;
+}
