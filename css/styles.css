@@ -494,9 +494,9 @@ img {
 }
 
 .footer-input-btn {
-  /* display: flex;
+  display: flex;
   align-items: center;
-  justify-content: center; */
+  justify-content: center;
   /* padding-left: 24px;
   gap: 16px; */
   border-radius: 4px;
@@ -600,9 +600,10 @@ img {
 .modal-form {
   padding-bottom: 16px;
 }
-/* .modal-field {
-  margin-bottom: 8px; */
+.modal-field {
+  margin-bottom: 8px;
 }
+
 .modal-wrap {
   position: relative;
   margin-top: 4px;
