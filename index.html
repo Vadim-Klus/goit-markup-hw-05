@@ -55,7 +55,9 @@
       <section class="page-title">
         <div class="container">
           <h1 class="page-title-text">Effective Solutions for Your Business</h1>
-          <button class="button" type="button">Order Service</button>
+          <button class="button" type="button" data-modal-open>
+            Order Service
+          </button>
         </div>
       </section>
 
@@ -475,13 +477,14 @@
       </div>
     </footer>
 
-    <div class="backdrop">
+    <div class="backdrop" data-modal>
       <div class="modal">
-        <button class="modal-close" type="button">
+        <button class="modal-close" type="button" data-modal-close>
           <svg class="close-btn" width="8" height="8">
             <use href="./images/icons.svg#icon-close-black"></use>
           </svg>
         </button>
+
         <p class="modal-section-text">
           Leave your contacts and we will call you back
         </p>
@@ -532,18 +535,42 @@
                 </svg></div
             ></label>
           </div>
-          <label for="user-comment" class="modal-label"
-            >Comment
-            <textarea
-              type="submit"
-              name="user-comment"
-              id="user-comment"
-              class="modal-textarea"
-              placeholder="Text input"
-            ></textarea>
-          </label>
+          <div class="modal-field">
+            <label for="user-comment" class="modal-label"
+              >Comment
+              <div class="modal-wrap">
+                <textarea
+                  type="submit"
+                  name="user-comment"
+                  id="user-comment"
+                  class="modal-textarea"
+                  placeholder="Text input"
+                ></textarea>
+              </div>
+            </label>
+          </div>
+          <div class="checkbox-polisy">
+            <input
+              type="checkbox"
+              name="polisy"
+              id="polisy"
+              value="true"
+              class="modal-check visually-hidden"
+            />
+            <label for="polisy" class="modal-check-text"
+              ><span class="modal-check-item"
+                ><svg class="icon-vector" width="10" height="8">
+                  <use href="./images/icons.svg#icon-Vector"></use></svg></span
+              >I accept the terms and conditions of the
+              <span class="modal-link-text"
+                ><a href="" class="text-polisy">Privacy Policy</a></span
+              ></label
+            >
+          </div>
         </form>
+        <button class="modal-button" type="submit">Send</button>
       </div>
     </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
