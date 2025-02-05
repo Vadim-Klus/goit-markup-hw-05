@@ -47,6 +47,7 @@ img {
   padding: 0 15px;
   margin: 0 auto;
 }
+
 /*----------------heder----------------*/
 
 .page-header {
@@ -142,7 +143,9 @@ img {
 .nav-link.current {
   color: #404bbf;
 }
+
 /*---------------section 1------------ */
+
 .page-title {
   background-color: #2e2f42;
   padding: 188px 0;
@@ -156,8 +159,6 @@ img {
   background-position: center center;
   background-size: cover;
   max-width: 1440px;
-
-  /*background: rgba(46, 47, 66, 0.7);*/
 }
 
 .page-title-text {
@@ -485,12 +486,14 @@ img {
 }
 
 .footer-input::placeholder {
-  color: #fff;
   position: absolute;
   left: 16px;
   top: 50%;
   transform: translateY(-50%);
-  color: #ffffff;
+}
+
+.footer-ipnut::placeholder {
+  color: #fff;
 }
 
 .footer-input-btn {
@@ -505,7 +508,7 @@ img {
   height: 40px;
   background-color: #4d5ae5;
   color: #fff;
-  margin-left: 24px;
+
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -516,17 +519,9 @@ img {
 }
 
 .footer-btn {
-  /* display: block;
-  position: relative; */
 }
 
 .icon-sent {
-  margin-left: 16px;
-  fill: #fff;
-  /* position: absolute;
-  right: 24px;
-  top: 50%;
-  transform: translateY(-50%); */
 }
 
 /*---------------MODAL WINDOW---------*/
@@ -599,7 +594,6 @@ img {
   margin-bottom: 16px;
 }
 .modal-form {
-  padding-bottom: 16px;
 }
 .modal-field {
   margin-bottom: 8px;
@@ -667,20 +661,7 @@ img {
   fill: #2e2f42;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-/* .input-icon-phone {
-  position: absolute;
-  left: 16px;
-  top: 50%;
-  transform: translateY(-50%);
-  fill: #2e2f42;
-}
-.input-icon-email {
-  position: absolute;
-  left: 16px;
-  top: 50%;
-  transform: translateY(-50%);
-  fill: #2e2f42;
-} */
+
 .checkbox-polisy {
   margin-bottom: 24px;
 }
